@@ -1,16 +1,16 @@
 class ChainMaind < Formula
   desc "chain-main daemon"
   homepage "https://github.com/crypto-com/chain-main"
-  version "0.7.0-rc2"
+  version "0.8.0-rc1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/crypto-com/chain-main/releases/download/v0.7.0-rc2/chain-main_0.7.0-rc2_Darwin_x86_64.tar.gz"
-    sha256 "6f7c7a3d05e78e974ae59acf88e101160b90b6a5a087e8958b281c6e8c76a733"
+    url "https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Darwin_x86_64.tar.gz"
+    sha256 "c8ae69c360765f72a160b5557cbdf6968d47266bdc9ef752b191f06a5af810db"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/crypto-com/chain-main/releases/download/v0.7.0-rc2/chain-main_0.7.0-rc2_Linux_x86_64.tar.gz"
-      sha256 "a099d0788743dc7568eb6319ff534bc308a82ee990b8b35ed1b97b43c10aa9b4"
+      url "https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Linux_x86_64.tar.gz"
+      sha256 "042f3d6eb7ff3bc20a808d0f56bf2e3b132c3ba201e0565a00a89028d08b4be3"
     end
   end
 
