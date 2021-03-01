@@ -10,7 +10,7 @@ The repo that this tap is built from can be found [here.](https://github.com/cry
 
 ```bash
 # tap the repo
-brew tap crypto-org-chain/chain-main
+brew tap crypto-com/chain-maind
 # install the CLI tool
 brew install chain-maind
 # get a list of all the commands
