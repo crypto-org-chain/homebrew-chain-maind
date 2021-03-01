@@ -5,7 +5,7 @@ Just the homebrew tap of CHAIN-MAIND that allows for easier installing
 # Repo
 
 The repo that this tap is built from can be found [here.](https://github.com/crypto-org-chain/chain-main)
-
+The binary is for `testnet-croeseid-2` testnet
 # Installation
 
 ```bash
