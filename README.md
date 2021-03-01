@@ -4,13 +4,13 @@ Just the homebrew tap of CHAIN-MAIND that allows for easier installing
 
 # Repo
 
-The repo that this tap is built from can be found [here.](https://github.com/crypto-com/chain-main)
+The repo that this tap is built from can be found [here.](https://github.com/crypto-org-chain/chain-main)
 
 # Installation
 
 ```bash
 # tap the repo
-brew tap crypto-com/chain-maind
+brew tap crypto-org-chain/chain-main
 # install the CLI tool
 brew install chain-maind
 # get a list of all the commands
