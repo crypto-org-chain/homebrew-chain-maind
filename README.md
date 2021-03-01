@@ -4,7 +4,7 @@ Just the homebrew tap of CHAIN-MAIND that allows for easier installing
 
 # Repo
 
-The repo that this tap is built from can be found [here.](https://github.com/crypto-com/chain-main)
+The repo that this tap is built from can be found [here.](https://github.com/crypto-org-chain/chain-main)
 
 # Installation
 
