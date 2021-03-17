@@ -15,6 +15,6 @@ class ChainMaind < Formula
   end
 
   def install
-    bin.install "chain-maind"
+    bin.install "bin/chain-maind"
   end
 end
