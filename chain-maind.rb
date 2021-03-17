@@ -1,16 +1,16 @@
 class ChainMaind < Formula
   desc "chain-main daemon"
   homepage "https://github.com/crypto-org-chain/chain-main"
-  version "0.9.1-croeseid"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/crypto-org-chain/chain-main/releases/download/v0.9.1-croeseid/chain-main_0.9.1-croeseid_Darwin_x86_64.tar.gz"
-    sha256 "e19bf16919ddb06ba6df31dbd0a42c13cc30be8f70d6a3821bd2de17db6a28ad"
+    url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.1.0/chain-main_1.1.0_Darwin_x86_64.tar.gz"
+    sha256 "4be50fe54c8ad65e789477ff28bb048239fc76f7341c21e5fb019395fff38478"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/crypto-org-chain/chain-main/releases/download/v0.9.1-croeseid/chain-main_0.9.1-croeseid_Linux_x86_64.tar.gz"
-      sha256 "c13ee1e2a1eff05da7df1481a64ee2b8a54251cd6ecd5d139e3b1bf499f24c8e"
+      url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.1.0/chain-main_1.1.0_Linux_x86_64.tar.gz"
+      sha256 "f8a927ca0b5c5ab8a5ba7e38dc1f272533b4d6678ec80b2acd11da7542211496"
     end
   end
 
