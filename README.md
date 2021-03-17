@@ -6,14 +6,21 @@ Just the homebrew tap of CHAIN-MAIND that allows for easier installing
 
 The repo that this tap is built from can be found [here.](https://github.com/crypto-org-chain/chain-main)
 
-The binary is for `testnet-croeseid-2` testnet
+The binary is for `crypto-org-chain-mainnet-1` mainnet
 # Installation
 
 ```bash
 # tap the repo
-brew tap crypto-com/chain-maind
+brew tap crypto-org-chain/chain-maind
 # install the CLI tool
 brew install chain-maind
 # get a list of all the commands
 chain-maind
+```
+
+## Check version
+
+```bash
+$ chain-maind version
+1.1.0
 ```
