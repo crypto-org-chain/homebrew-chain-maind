@@ -17,6 +17,11 @@ brew install chain-maind
 # get a list of all the commands
 chain-maind
 ```
+# Upgrade
+
+```bash
+$ brew upgrade chain-maind
+```
 
 ## Check version
 
