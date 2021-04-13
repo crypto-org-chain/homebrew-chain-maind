@@ -5,12 +5,12 @@ class ChainMaind < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.2.0/chain-main_1.2.0_Darwin_x86_64.tar.gz"
-    sha256 "67e578899f3b3ced2782b7c84b816d5b0de6856a557889c56aad215356354373"
+    url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.2.1/chain-main_1.2.1_Darwin_x86_64.tar.gz"
+    sha256 "4004c08609598b63c14e1611c174fa55c1425374a0d923b7a4a34d4792101fb8"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.2.0/chain-main_1.2.0_Linux_x86_64.tar.gz"
-      sha256 "5cefa69a888a25db4f8ba48271a64323d2c1ca64f53a75f65b596f793c2d5157"
+      url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.2.1/chain-main_1.2.1_Linux_x86_64.tar.gz"
+      sha256 "25a5f249e0c4764cc44353d35cd783c71ec1b0e133415ed0a845a83eb012bac4"
     end
   end
 
