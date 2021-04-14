@@ -1,7 +1,7 @@
 class ChainMaind < Formula
   desc "chain-main daemon"
   homepage "https://github.com/crypto-org-chain/chain-main"
-  version "1.2.0"
+  version "1.2.1"
   bottle :unneeded
 
   if OS.mac?
