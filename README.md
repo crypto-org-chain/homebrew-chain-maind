@@ -27,5 +27,5 @@ $ brew upgrade chain-maind
 
 ```bash
 $ chain-maind version
-1.2.1
+2.0.1
 ```
