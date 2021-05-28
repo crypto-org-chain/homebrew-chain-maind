@@ -6,7 +6,6 @@ class ChainMaind < Formula
 
   if OS.mac?
     url "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.1/chain-main_2.0.1_Darwin_x86_64.tar.gz"
-    sha256 "a4d51bf98350c7ecbb5e6bab192c9cac2f4059754e5507d2a1970a8a5488c74a"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.1/chain-main_2.0.1_Linux_x86_64.tar.gz"
