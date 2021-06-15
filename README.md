@@ -23,6 +23,12 @@ chain-maind
 $ brew upgrade chain-maind
 ```
 
+# Install previous version before network upgrade
+
+```bash
+$ brew install chain-maind@1.2.1
+```
+
 ## Check version
 
 ```bash
