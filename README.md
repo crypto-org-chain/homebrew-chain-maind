@@ -33,5 +33,5 @@ $ brew install chain-maind@1.2.1
 
 ```bash
 $ chain-maind version
-2.1.1
+2.0.1
 ```
