@@ -28,10 +28,14 @@ $ brew upgrade chain-maind
 ```bash
 $ brew install chain-maind@1.2.1
 ```
+or
+```bash
+$ brew install chain-maind@2.0.1
+```
 
 ## Check version
 
 ```bash
 $ chain-maind version
-2.0.1
+3.1.1
 ```

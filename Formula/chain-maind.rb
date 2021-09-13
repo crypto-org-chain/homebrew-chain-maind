@@ -1,24 +1,24 @@
 class ChainMaind < Formula
   desc "chain-main daemon"
   homepage "https://github.com/crypto-org-chain/chain-main"
-  version "2.0.1"
+  version "3.1.1"
   bottle :unneeded
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.1/chain-main_2.0.1_Darwin_arm64.tar.gz"
-      sha256 "eb6274724eab1957a7b708a5a0887de9f213d053841fb58041f697e13728a454"
+      url "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1/chain-main_3.1.1_Darwin_arm64.tar.gz"
+      sha256 "3ebdeeb65400332e6c892a52cc6241ed6f4a43949114cf19a9648f56a212f471"
     elsif Hardware::CPU.intel?
-      url "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.1/chain-main_2.0.1_Darwin_x86_64.tar.gz"
-      sha256 "a4d51bf98350c7ecbb5e6bab192c9cac2f4059754e5507d2a1970a8a5488c74a"
+      url "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1/chain-main_3.1.1_Darwin_x86_64.tar.gz"
+      sha256 "082539ce9e9f2e382a70003a8504c9aa95f16fee55d104d3d94090b01e36ee63"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.1/chain-main_2.0.1_Linux_arm64.tar.gz"
-      sha256 "345c7eacfc768df355c3b3ecadc9cc39e3c1656c9c0c4d465b938834fa66ff03"
+      url "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1/chain-main_3.1.1_Linux_arm64.tar.gz"
+      sha256 "728940e53a9706d286480f55d6f033f8345b82e3788710490aac8cd79b44bdcd"
     else
-      url "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.1/chain-main_2.0.1_Linux_x86_64.tar.gz"
-      sha256 "5e9e9f703cb85c72573086e384e187e752463b2ed0ccd612094a1f29a13f0158"
+      url "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1/chain-main_3.1.1_Linux_x86_64.tar.gz"
+      sha256 "043793233827cb948714d8d9f0196a4d574195c90d7e8ac85c06220fdec39df2"
     end
   end
 
