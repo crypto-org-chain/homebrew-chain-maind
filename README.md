@@ -23,15 +23,21 @@ chain-maind
 $ brew upgrade chain-maind
 ```
 
-# Install previous version before network upgrade
+# Install previous version before Canis Major network upgrade 
 
 ```bash
 $ brew install chain-maind@1.2.1
+```
+
+# Install previous version before DRACO II Major network upgrade
+
+```bash
+$ brew install chain-maind@2.0.1
 ```
 
 ## Check version
 
 ```bash
 $ chain-maind version
-2.0.1
+3.3.2
 ```
