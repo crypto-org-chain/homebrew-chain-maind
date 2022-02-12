@@ -1,8 +1,7 @@
-class ChainMaind < Formula
+class ChainMaindAT201 < Formula
   desc "chain-main daemon"
   homepage "https://github.com/crypto-org-chain/chain-main"
   version "2.0.1"
-  bottle :unneeded
 
   if OS.mac?
     if Hardware::CPU.arm?

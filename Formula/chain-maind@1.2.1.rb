@@ -2,7 +2,6 @@ class ChainMaindAT121 < Formula
   desc "chain-main daemon"
   homepage "https://github.com/crypto-org-chain/chain-main"
   version "1.2.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/crypto-org-chain/chain-main/releases/download/v1.2.1/chain-main_1.2.1_Darwin_x86_64.tar.gz"
