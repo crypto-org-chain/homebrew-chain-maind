@@ -29,7 +29,7 @@ $ brew upgrade chain-maind
 $ brew install chain-maind@1.2.2
 ```
 
-# Install previous version before DRACO II Major network upgrade
+# Install previous version before DRACO II Major network upgrade (block height before `3,526,800`)
 
 ```bash
 $ brew install chain-maind@2.1.2
