@@ -23,7 +23,7 @@ chain-maind
 $ brew upgrade chain-maind
 ```
 
-# Install previous version before Canis Major network upgrade 
+# Install previous version before Canis Major network upgrade (block height before `922,363`)
 
 ```bash
 $ brew install chain-maind@1.2.2
